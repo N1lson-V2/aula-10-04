@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E7CFBC;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+   
+    text-align: center;
+    padding: 12px 0;
+}
+.logo{
+    font-size: 35px;
+}
+
+h2{
+    font-weight: 200;
+    line-height: 30px;
+    
+    color: black;
+}
+h1{
+   
+    margin-top: 25px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    padding-top: 5px;
+}
+.caixa-retangular{
+    background-color: white;
+    width: 65%;
+   
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+span{
+    color: red;
+
+}
+ul{
+    list-style: none;
+}
+.menu-escolha{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-right: 7%;
+    
+}
+li{
+    padding-left: 3%;
+}
+a{
+    text-decoration: none;
+    color: #7e5984;
+    font-size: 20px;
+}
+a:hover{
+    color: black;
+    transition: 1s;
+}
+hr{
+    border: solid 2px white;
+}
+blockquote{
+    font-style: italic;
+    background-color: rgb(233, 229, 229);
+    border-left: 6px solid #3a4587;
+    padding: 15px 20px;
+    margin: 20px 0;
+    /*color: #333;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.separa-li{
+    border: 2px solid #9e9797;
+}
+.video{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.direito{
+    font-size: 12px;
+}
